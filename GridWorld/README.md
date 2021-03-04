@@ -10,13 +10,13 @@
 
   - Monster-Hunt
 
-    <div align=center> ![](./img/MonsterHunt.JPG)
+    <div align=center> ![](./img/MonsterHunt.JPG)</div>
 
     In Monster-Hunt, there is a monster and two apples. The monster keeps moving towards its closest agent while apples are static. When a single agent meets the monster, it **losses** a penalty of 2; if two agents catch the monster at the same time, they both earn a bonus of 5. Eating an apple always gives an agent a bonus of 2. Whenever an apple is eaten or the monster meets an agent, the apple or the monster will respawn randomly. The monster may move over the apple during the chase, in this case, the agent will gain the sum of points if it catches the monster and the apple exactly.
 
   - Escalation
 
-    <div align=center> ![](./img/Escalation.JPG)
+    <div align=center> ![](./img/Escalation.JPG)</div>
   
     In Escalation, two agents appear randomly and one grid lights up at the initialization. If two agents step on the lit grid simultaneously, each agent can gain 1 point, and the lit grid will go out with an adjacent grid lighting up. Both agents can gain 1 point again if they step on the next lit grid together. But if one agent steps off the path, the other agent will *lose* 0.9L points, where L is the current length of stepping together, and the game is over. Another option is that two agents choose to step off the path simultaneously, neither agent will be punished, and the game continues.
 
