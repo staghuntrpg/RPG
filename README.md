@@ -1,7 +1,7 @@
 # RPG (Reward-Randomized Policy Gradient)
 ### Zhenggang Tang*, Chao Yu*, Boyuan Chen, Huazhe Xu, Xiaolong Wang, Fei Fang, Simon Shaolei Du, Yu Wang, Yi Wu (* equal contribution)
 
-**Website:**https://sites.google.com/view/staghuntrpg
+**Website**: https://sites.google.com/view/staghuntrpg
 
 This is the source code for RPG (Reward-Randomized Policy Gradient), which is proposed in the paper "Discovering Diverse Multi-agent Strategic Behavior via Reward Randomization"[(TODO: arxiv link)](arxiv link).
 
