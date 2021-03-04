@@ -2,17 +2,20 @@ import copy
 import glob
 import os
 import time
-from draw import draw
+
 from collections import deque
-from gv import *
+from agar.gv import *
+
 gv_init()
 
 import numpy as np
 from datetime import datetime
+
 time_str = str(datetime.now()).replace(':','-').replace(' ','--')
 time_str = time_str[0:time_str.find(".")]
 set_v('time_str', time_str)
 set_v('obs_size', 578)
+
 def get_best_gpu(force = None):
     if force is not None:return force
     s = os.popen("nvidia-smi --query-gpu=memory.free --format=csv")
@@ -52,7 +55,7 @@ from a2c_ppo_acktr.arguments import get_args
 from a2c_ppo_acktr.envs import make_vec_envs
 from a2c_ppo_acktr.model import Policy
 from a2c_ppo_acktr.storage import RolloutStorage
-from evaluation2 import evaluate
+from evaluate import evaluate
 
 def main():
     args = get_args()

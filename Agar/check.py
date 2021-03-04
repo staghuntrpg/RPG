@@ -1,7 +1,6 @@
 import glob
 import os
 import time
-from draw import draw
 from collections import deque
 import random
 from gv import *
