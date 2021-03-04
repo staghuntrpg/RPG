@@ -35,7 +35,7 @@ The Monster-Hunt and Escalation tasks are implemented according to the Markov St
 
 - The config.py file contains relevant hyperparameter and env settings. Most hyperparameters are defaulted to the ones used in the paper; however, please refer to the appendix for a full list of hyperparameters used.
 
-## 3.Train
+## 3. Train
 
 Here we use train_GW.sh as an example:
 
