@@ -16,7 +16,7 @@ The Monster-Hunt and Escalation tasks are implemented according to the Markov St
 
 ## Usage
 
-- The algorithm/ subfolder contains algorithm-specific code for PPO (Proximal Policy Optimization).
+- The algorithm/ subfolder contains algorithm-specific code for PPO (Proximal Policy Optimization), which is heavily based on https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail.
 
 - The envs/ subfolder contains environment wrapper implementations for the Matrix Game and Grid World.
 
