@@ -9,7 +9,7 @@ This is the source code for RPG (Reward-Randomized Policy Gradient), which is pr
 
 ### 1.1 *Agar.io*
 
-<div align=center>![Agar.io](https://github.com/staghuntrpg/agar/tree/main/gif/agar_demo.gif) </div>
+<div align=center><img src=https://github.com/staghuntrpg/agar/tree/main/gif/agar_demo.gif/> </div>
  
 
  
