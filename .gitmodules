@@ -1,0 +1,3 @@
+[submodule "Agar/agar"]
+	path = Agar/agar
+	url = https://github.com/staghuntrpg/agar
