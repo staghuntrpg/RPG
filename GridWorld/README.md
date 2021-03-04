@@ -1,4 +1,4 @@
-## Environments supported:
+## 1. Environments supported:
 
 - Matrix Game (MG)
 
@@ -23,7 +23,7 @@
 
 The Monster-Hunt and Escalation tasks are implemented according to the Markov Stag-hunt and Coordinated Escalation tasks, which are firstly proposed in the paper "Prosocial learning agents solve generalized Stag Hunts better than selfish ones" [(https://arxiv.org/abs/1709.02865)](https://arxiv.org/abs/1709.02865). 
 
-## Usage
+## 2. User Guide
 
 - The algorithm/ subfolder contains algorithm-specific code for PPO (Proximal Policy Optimization), which is heavily based on https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail.
 
