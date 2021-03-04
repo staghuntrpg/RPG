@@ -9,9 +9,7 @@ This is the source code for RPG (Reward-Randomized Policy Gradient), which is pr
 
 ### 1.1 *Agar.io*
 
-<p align="center">
-<img src="https://github.com/staghuntrpg/agar/tree/main/gif/agar_demo.gif" align="middle" width="800" />
-</p>
+<p align="center"><img src="https://github.com/staghuntrpg/agar/blob/main/gif/agar_demo.gif" align="middle" /></p>
 
  
 [*Agar*](http://en.wikipedia.org/wiki/Agar.io) is a popular multi-player online game. Players control one or more cells in a Petri dish. The goal is to gain as much mass as possible by eating cells smaller than the player's cell while avoiding being eaten by larger ones. Larger cells move slower. Each player starts with one cell but can split a sufficiently large cell into two, allowing them to control multiple cells. The control is performed by mouse motion: all the cells of a player move towards the mouse position. 
