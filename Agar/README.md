@@ -19,7 +19,7 @@ conda create -n rpg python==3.6.1
 conda activate rpg
 pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 
-pip install gym matplotlib imageio opencv-python tensorboardX pillow
+pip install gym matplotlib imageio opencv-python tensorboardX pillow pyglet
 ```
 
 ## 3. Enjoy
