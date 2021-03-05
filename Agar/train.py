@@ -2,7 +2,6 @@ from copy import deepcopy
 import glob
 import os
 import time
-from draw import draw
 from collections import deque
 from gv import *
 gv_init()

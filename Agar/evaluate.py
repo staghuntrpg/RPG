@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import time
 
-from Agar_env.Env import AgarEnv
+from agar.Env import AgarEnv
 from a2c_ppo_acktr import utils
 from a2c_ppo_acktr.envs import make_vec_envs
 
