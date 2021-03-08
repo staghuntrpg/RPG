@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from gym.spaces.box import Box
 
-from Agar_env.Env import AgarEnv
+from agar.Env import AgarEnv
 from baselines import bench
 from baselines.common.vec_env import VecEnvWrapper
 from baselines.common.vec_env.dummy_vec_env import DummyVecEnv

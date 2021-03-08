@@ -141,7 +141,7 @@ def get_args():
     parser.add_argument(
         '--use-proper-time-limits',
         action='store_true',
-        default=False,
+        default=True,
         help='compute returns taking into account time limits')
     parser.add_argument(
         '--recurrent-policy',
@@ -164,15 +164,20 @@ def get_args():
         default=1,
         help='number of agents which can be controled through actions')
     parser.add_argument(
-        '--num-players',
-        type=int,
-        default=1,
-        help='number of players (controlled-agents and bots)')
-    parser.add_argument(
         '--num-attention-heads',
         type=int,
         default=0,
         help='number of heads of multihead-attention (0 means no attention)')
+    parser.add_argument(
+        '--r-alpha',
+        type=float,
+        default=1,
+        help='reward parameter alpha')
+    parser.add_argument(
+        '--r-beta',
+        type=float,
+        default=0,
+        help='reward parameter beta')
     
     args = parser.parse_args()
 

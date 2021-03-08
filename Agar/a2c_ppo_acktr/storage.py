@@ -90,7 +90,9 @@ class RolloutStorage(object):
                         gamma * self.masks[step + 1] + self.rewards[step]) * self.bad_masks[step + 1] \
                         + (1 - self.bad_masks[step + 1]) * self.value_preds[step]
                 # when bad mask = 0 (also mask = 0) returns[step] = value_pred, no value train
-        else:exit(0)
+        else:
+            print("Not implement 'use_proper_time_limits = False'")
+            exit(0)
 
     def recurrent_generator(self, advantages, num_mini_batch):
         num_processes = self.rewards.size(1)

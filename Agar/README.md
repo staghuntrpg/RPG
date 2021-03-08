@@ -26,13 +26,19 @@ pip install gym matplotlib imageio opencv-python tensorboardX pillow pyglet
 
 ### 3.1 Train
 
+A sample of a typical command for training is in train.sh. Detailed arguments are listed in a2c_ppo_acktr/arguments.py.
 ```
-chmod +x train.sh
 ./train.sh
+```
+During training, data are logged in the file folder ** trained_models ** and with log name in the form like "YYYY-MM-DD-HH-MM-SS"
+If the training process is terminated by accident, you can run the following command line to continue training the policy saved in [log_name].
+```
+python main.py --load-time-label [log_name]
 ```
 
 ### 3.2 Render
 
+If you want to visualize a trained policy saved in [log_name], you can execute the command line listed below.
 ```
-python render.py
+python render.py --load-time-label [log_name]
 ```
