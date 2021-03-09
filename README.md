@@ -3,7 +3,7 @@
 
 **Website**: https://sites.google.com/view/staghuntrpg
 
-This is the source code for RPG (Reward-Randomized Policy Gradient), which is proposed in the paper "Discovering Diverse Multi-agent Strategic Behavior via Reward Randomization"[(TODO: arxiv link)](arxiv link).
+This is the source code for RPG (Reward-Randomized Policy Gradient), which is proposed in the paper "Discovering Diverse Multi-agent Strategic Behavior via Reward Randomization"[(https://arxiv.org/abs/2103.04564)](https://arxiv.org/abs/2103.04564).
 
 ## 1. Supported environments
 
@@ -36,4 +36,15 @@ This repository is separated into two folds, GridWorld and Agar, corresponding t
 
 ## 3. Publication
 
-If you find this repository useful, please cite our paper: TODO
+If you find this repository useful, please cite our paper: 
+
+```
+@misc{tang2021discovering,
+      title={Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization}, 
+      author={Zhenggang Tang and Chao Yu and Boyuan Chen and Huazhe Xu and Xiaolong Wang and Fei Fang and Simon Du and Yu Wang and Yi Wu},
+      year={2021},
+      eprint={2103.04564},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
