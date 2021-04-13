@@ -539,7 +539,7 @@ class GridWorldEnv(object):
                     self.agents[1].done = True
         else:
             if charB == 'E' and self.coop_length > 0:
-                self.agents[1].reward_this_return = self.defect_coef * self.coop_length
+                self.agents[1].reward_this_turn = self.defect_coef * self.coop_length
                 self.agents[0].done = True
                 self.agents[1].done = True
     
